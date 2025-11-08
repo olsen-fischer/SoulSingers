@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Soul Singers Blog - Expert advice on business growth, technology, and innovation.">
+    <meta name="keywords" content="business growth, technology, innovation, SEO, customer experience, marketing">
+    <meta name="author" content="Soul Singers">
+    <meta name="generator" content="Bootstrap">
+
+    <title>Soul Singers Blog</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/assets/logo/favicon.ico">
+    <link rel="canonical" href="https://example.com/blog.html">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/libraries/glide/css/glide.core.min.css">
+    <link rel="stylesheet" href="/assets/libraries/aos/aos.css">
+    <link rel="stylesheet" href="/assets/css/main.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Soul Singers Blog">
+    <meta property="og:description" content="Learn how to grow your business with expert advice on technology, marketing, and customer experience.">
+    <meta property="og:image" content="https://example.com/assets/img/bg/bg1.jpg">
+    <meta property="og:url" content="https://example.com/blog.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@SoulSingers">
+    <meta name="twitter:title" content="Soul Singers Blog">
+    <meta name="twitter:description" content="Learn how to grow your business with expert advice on technology, marketing, and customer experience.">
+    <meta name="twitter:image" content="https://example.com/assets/img/bg/bg1.jpg">
+
+    <!-- Bootstrap CSS (CDN for reliability) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="spinner-border text-primary p-5" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="navigation position-absolute w-100 bg-body-tertiary shadow border-bottom border-light border-opacity-10 rounded-bottom-3 rounded-bottom-sm-4">
+        <nav class="navbar navbar-expand-xl" aria-label="Main navigation">
+            <div class="container py-1">
+                <a href="/index.html" class="navbar-brand">
+                    <img src="/assets/logo/logo.png" height="40" alt="Soul Singers Logo">
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end border-0 rounded-start-0 rounded-start-sm-4" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" style="padding: 2rem 2rem 1.5rem 2rem;">
+                        <h5 class="offcanvas-title m-0" id="offcanvasNavbarLabel">
+                            <a class="navbar-brand" href="/index.html">
+                                <img src="/assets/logo/logo.png" height="32" alt="Soul Singers Logo">
+                            </a>
+                        </h5>
+                        <button type="button" class="btn-close text-body-emphasis" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav align-items-xl-center flex-grow-1 column-gap-4 row-gap-4 row-gap-xl-2">
+                            <li class="nav-item ms-xl-auto">
+                                <a href="/home.html" class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold" aria-current="page">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/about.html" class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/services.html" class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a href="/blog/blog.html" class="btn w-100 text-start px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                   
+                                </div>
+                            </li>
+                            <li class="nav-item ms-xl-auto">
+                                <a href="/contact.html" class="px-3 text-body-emphasis bg-body-secondary-hover border nav-link rounded-3 text-base leading-6 fw-semibold text-center">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Body -->
+    <div class="overflow-hidden py-9 py-xl-10 position-relative">
+        <img src="/assets/img/bg/bg1.jpg" class="position-absolute z-n1 top-0 h-100 w-100 object-fit-cover" alt="Background Image">
+        <div class="position-absolute z-n1 top-0 h-100 w-100 bg-dark" style="opacity: 0.85; mix-blend-mode: multiply; filter: contrast(1.15) brightness(0.85);"></div>
+        <div class="position-absolute z-0 top-0 h-100 w-100">
+            <div class="container h-100 d-flex align-items-center">
+                <div class="max-w-2xl mx-auto mx-xl-0 text-center text-xl-start">
+                    <h1 class="m-0 mt-7 text-white tracking-tight text-6xl fw-bold" data-aos="fade" data-aos-duration="3000">
+                        From the Blog
+                    </h1>
+                    <p class="m-0 mt-4 text-white text-lg leading-8" data-aos-delay="100" data-aos="fade" data-aos-duration="3000">
+                        Learn how to grow your business with our expert advice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Posts -->
+    <div class="overflow-hidden py-6 py-sm-7 py-xl-8">
+        <div class="container">
+            <div class="row gx-xl-5 justify-content-between">
+                <div class="col-12 col-xl-8">
+                    <div class="row row-cols-1 row-cols-md-2 gy-5 gx-md-5 justify-content-center justify-content-xl-between">
+                        <div class="col pt-5 pt-xl-4" data-aos="fade" data-aos-duration="3000">
+                            <article class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between">
+                                <div class="position-relative w-100">
+                                    <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                        <img src="/assets/img/bg/bg2.jpg" class="object-fit-cover rounded-3" alt="Boost Conversion Rate" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="mt-4 d-flex align-items-center column-gap-3 text-xs">
+                                    <time datetime="2024-09-16" class="text-body-tertiary">Sep 16, 2024</time>
+                                    <a href="/blog/design.html" class="px-3 py-2 text-body-secondary bg-body-tertiary rounded-pill text-decoration-none fw-medium">Design</a>
+                                </div>
+                                <div class="position-relative">
+                                    <h3 class="m-0 mt-3 text-lg leading-6 fw-semibold">
+                                        <a href="/blog/boost-conversion.html" class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link">
+                                            Boost Your Conversion Rate
+                                        </a>
+                                    </h3>
+                                    <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                        Discover proven strategies to increase your conversion rates with expert advice and practical tips.
+                                    </p>
+                                </div>
+                                <div class="mt-4 position-relative d-flex align-items-center column-gap-3">
+                                    <img src="/assets/img/small-team/st1.jpg" alt="Michael Jones" class="rounded-circle" width="40" height="40" loading="lazy">
+                                    <div class="text-sm leading-6">
+                                        <p class="m-0 fw-semibold">
+                                            <a href="/author/michael-jones.html" class="text-body-emphasis text-decoration-none stretched-link">Michael Jones</a>
+                                        </p>
+                                        <p class="m-0 text-body-secondary">Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col pt-5 pt-xl-4" data-aos-delay="100" data-aos="fade" data-aos-duration="3000">
+                            <article class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between">
+                                <div class="position-relative w-100">
+                                    <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                        <img src="/assets/img/bg/bg3.jpg" class="object-fit-cover rounded-3" alt="SEO for Sales" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="mt-4 d-flex align-items-center column-gap-3 text-xs">
+                                    <time datetime="2024-09-16" class="text-body-tertiary">Sep 16, 2024</time>
+                                    <a href="/blog/marketing.html" class="px-3 py-2 text-body-secondary bg-body-tertiary rounded-pill text-decoration-none fw-medium">Marketing</a>
+                                </div>
+                                <div class="position-relative">
+                                    <h3 class="m-0 mt-3 text-lg leading-6 fw-semibold">
+                                        <a href="/blog/seo-sales.html" class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link">
+                                            How to Use SEO to Drive Sales
+                                        </a>
+                                    </h3>
+                                    <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                        Leverage SEO techniques to boost your sales with our expert strategies and insights.
+                                    </p>
+                                </div>
+                                <div class="mt-4 position-relative d-flex align-items-center column-gap-3">
+                                    <img src="/assets/img/small-team/st2.jpg" alt="Jessica Smith" class="rounded-circle" width="40" height="40" loading="lazy">
+                                    <div class="text-sm leading-6">
+                                        <p class="m-0 fw-semibold">
+                                            <a href="/author/jessica-smith.html" class="text-body-emphasis text-decoration-none stretched-link">Jessica Smith</a>
+                                        </p>
+                                        <p class="m-0 text-body-secondary">Front-end Developer</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col pt-5 pt-xl-4" data-aos="fade" data-aos-duration="3000">
+                            <article class="d-flex max-w-xl mx-auto mx-xl-0 flex-column align-items-start justify-content-between">
+                                <div class="position-relative w-100">
+                                    <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                        <img src="/assets/img/bg/bg4.jpg" class="object-fit-cover rounded-3" alt="Customer Experience" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="mt-4 d-flex align-items-center column-gap-3 text-xs">
+                                    <time datetime="2024-09-16" class="text-body-tertiary">Sep 16, 2024</time>
+                                    <a href="/blog/development.html" class="px-3 py-2 text-body-secondary bg-body-tertiary rounded-pill text-decoration-none fw-medium">Development</a>
+                                </div>
+                                <div class="position-relative">
+                                    <h3 class="m-0 mt-3 text-lg leading-6 fw-semibold">
+                                        <a href="/blog/customer-experience.html" class="text-body-emphasis text-body-secondary-hover text-decoration-none stretched-link">
+                                            Improve Your Customer Experience
+                                        </a>
+                                    </h3>
+                                    <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                        Enhance customer satisfaction with practical tips and proven strategies for success.
+                                    </p>
+                                </div>
+                                <div class="mt-4 position-relative d-flex align-items-center column-gap-3">
+                                    <img src="/assets/img/small-team/st3.jpg" alt="David Wilson" class="rounded-circle" width="40" height="40" loading="lazy">
+                                    <div class="text-sm leading-6">
+                                        <p class="m-0 fw-semibold">
+                                            <a href="/author/david-wilson.html" class="text-body-emphasis text-decoration-none stretched-link">David Wilson</a>
+                                        </p>
+                                        <p class="m-0 text-body-secondary">Director of Product</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pt-9 pb-6">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link rounded-circle p-2 m-1" href="/blog/page/1.html" aria-label="Previous">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                    </a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link rounded-circle py-2 px-3 m-1" href="/blog/page/1.html">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link rounded-circle py-2 px-3 m-1" href="/blog/page/2.html">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link rounded-circle py-2 px-3 m-1" href="/blog/page/3.html">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link rounded-circle p-2 m-1" href="/blog/page/2.html" aria-label="Next">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-12 col-xl-4">
+                    <div class="max-w-xl mx-auto mx-xl-0 pt-5 pt-xl-0">
+                        <!-- Search -->
+                        <div class="mt-4">
+                            <div class="p-4 shadow rounded-3 bg-body-tertiary">
+                                <div class="input-group flex-nowrap input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Search blog posts" aria-label="Search blog posts" aria-describedby="search-addon">
+                                    <span class="input-group-text bg-primary text-light" id="search-addon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Popular Posts -->
+                        <div class="mt-5">
+                            <div class="p-4 shadow rounded-3 bg-body-tertiary">
+                                <h3 class="text-body-emphasis text-2xl tracking-tight fw-semibold">Popular Posts</h3>
+                                <hr class="text-body-emphasis opacity-10">
+                                <a href="/blog/tech-revolution.html" class="d-flex align-items-center mt-4 text-body link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover">
+                                    <div class="p-5 position-relative">
+                                        <img src="/assets/img/bg/bg7.jpg" class="position-absolute top-0 start-0 h-100 w-100 object-fit-cover rounded" loading="lazy" alt="Tech Revolution">
+                                    </div>
+                                    <div class="ps-3">
+                                        <time datetime="2024-09-16" class="d-block text-body-tertiary">Sep 16, 2024</time>
+                                        <h6 class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                            The Tech Revolution: How Innovations Are Changing Business
+                                        </h6>
+                                    </div>
+                                </a>
+                                <a href="/blog/ai-trends.html" class="d-flex align-items-center mt-4 text-body link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover">
+                                    <div class="p-5 position-relative">
+                                        <img src="/assets/img/bg/bg8.jpg" class="position-absolute top-0 start-0 h-100 w-100 object-fit-cover rounded" loading="lazy" alt="AI Trends">
+                                    </div>
+                                    <div class="ps-3">
+                                        <time datetime="2024-09-16" class="d-block text-body-tertiary">Sep 16, 2024</time>
+                                        <h6 class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                            Top AI Trends Shaping the Future
+                                        </h6>
+                                    </div>
+                                </a>
+                                <a href="/blog/digital-transformation.html" class="d-flex align-items-center mt-4 text-body link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover">
+                                    <div class="p-5 position-relative">
+                                        <img src="/assets/img/bg/bg9.jpg" class="position-absolute top-0 start-0 h-100 w-100 object-fit-cover rounded" loading="lazy" alt="Digital Transformation">
+                                    </div>
+                                    <div class="ps-3">
+                                        <time datetime="2024-09-16" class="d-block text-body-tertiary">Sep 16, 2024</time>
+                                        <h6 class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                            Driving Digital Transformation in 2025
+                                        </h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Categories -->
+                        <div class="mt-5">
+                            <div class="p-4 shadow rounded-3 bg-body-tertiary">
+                                <h3 class="text-body-emphasis text-2xl tracking-tight fw-semibold">Categories</h3>
+                                <hr class="text-body-secondary opacity-10">
+                                <ul class="ps-3 text-body-secondary">
+                                    <li class="mt-2">
+                                        <a href="/blog/design.html" class="text-body-secondary link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover text-sm leading-6">Design</a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href="/blog/marketing.html" class="text-body-secondary link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover text-sm leading-6">Marketing</a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href="/blog/development.html" class="text-body-secondary link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover text-sm leading-6">Development</a>
+                                    </li>
+                                    <li class="mt-2">
+                                        <a href="/blog/business.html" class="text-body-secondary link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-25-hover text-sm leading-6">Business</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Popular Tags -->
+                        <div class="mt-5">
+                            <div class="p-4 shadow rounded-3 bg-body-tertiary">
+                                <h3 class="text-body-emphasis text-2xl tracking-tight fw-semibold">Popular Tags</h3>
+                                <hr class="text-body-emphasis opacity-10">
+                                <div class="d-flex flex-wrap gap-3">
+                                    <a href="/blog/tags/ai.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">AI</a>
+                                    <a href="/blog/tags/ecommerce.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">Ecommerce</a>
+                                    <a href="/blog/tags/iot.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">IoT</a>
+                                    <a href="/blog/tags/blockchain.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">Blockchain</a>
+                                    <a href="/blog/tags/smart-home.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">Smart Home</a>
+                                    <a href="/blog/tags/robotics.html" class="btn text-body-tertiary border bg-body-secondary-hover text-sm fw-semibold">Robotics</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="pb-9 pt-7">
+        <div class="container">
+            <div class="py-6 position-relative text-white rounded-3">
+                <img src="/assets/img/bg/bg10.jpg" class="position-absolute z-n1 top-0 h-100 w-100 object-fit-cover rounded-3" loading="lazy" alt="Call to Action Background">
+                <div class="position-absolute z-n1 top-0 h-100 w-100 bg-dark rounded-3" style="opacity: 0.85; mix-blend-mode: multiply; filter: contrast(1.15) brightness(0.85);"></div>
+                <div class="px-6">
+                    <div class="mx-auto max-w-2xl">
+                        <h2 class="m-0 tracking-tight text-4xl fw-bold text-center">
+                            Reclaim Your Time. Experience Fresh.
+                        </h2>
+                        <p class="m-0 mt-4 text-lg leading-8 text-center">
+                            Let us handle your laundry, so you can focus on what matters.
+                        </p>
+                        <div class="mt-4 pt-3 text-center">
+                            <a href="/schedule.html" class="btn btn-lg btn-primary text-white text-sm fw-semibold">Schedule Your Pickup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="overflow-hidden py-6 py-sm-7 py-xl-8 bg-body-tertiary">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-12 col-xl-6">
+                    <div class="pb-3 max-w-lg position-relative">
+                        <form method="post" target="_blank" novalidate class="mc-embedded-subscribe-form">
+                            <h2 class="text-body-emphasis leading-6 text-4xl tracking-tight fw-bold">
+                                Subscribe to Our Newsletter
+                            </h2>
+                            <p class="m-0 mt-3 text-body-secondary text-lg leading-8">
+                                Stay updated with the latest insights on business growth and technology.
+                            </p>
+                            <div class="mt-4 mb-2 d-flex flex-column flex-sm-row w-100 gap-2 js-form-inputs">
+                                <label for="emailSubscribe" class="visually-hidden">Email address</label>
+                                <input type="email" name="EMAIL" id="emailSubscribe" value="" class="form-control leading-6 text-sm max-w-xl" placeholder="Enter your email">
+                                <button type="submit" name="subscribe" class="btn btn-primary text-white fw-semibold text-sm">Subscribe</button>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" class="js-validate-robot" name="b_a4752870f583bb49a02427b3c_143fa46c21" tabindex="-1" value="">
+                            </div>
+                            <div class="js-subscribe-response"></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="row row-cols-1 row-cols-sm-2 gx-3 gy-5">
+                        <div class="d-flex flex-column align-items-start">
+                            <div class="p-2 bg-body-tertiary rounded-3 border">
+                                <svg class="text-body-emphasis" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                                </svg>
+                            </div>
+                            <div class="m-0 mt-3 text-body-emphasis fw-semibold">Weekly Articles</div>
+                            <div class="m-0 mt-2 text-body-secondary leading-7">
+                                Get the latest insights on business and technology every week.
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-start">
+                            <div class="p-2 bg-body-tertiary rounded-3 border">
+                                <svg class="text-body-emphasis" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002" />
+                                </svg>
+                            </div>
+                            <div class="m-0 mt-3 text-body-emphasis fw-semibold">No Spam</div>
+                            <div class="m-0 mt-2 text-body-secondary leading-7">
+                                We respect your inbox with relevant, high-quality content only.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <hr class="my-6 text-body-emphasis opacity-10">
+                <div class="d-flex flex-column flex-xl-row gap-5 justify-content-between align-items-xl-center">
+                    <div class="order-first order-xl-last">
+                        <ul class="nav row gy-4 gx-sm-4 row-cols-2 row-cols-sm-auto">
+                            <li class="nav-item">
+                                <a href="/about.html" class="p-0 text-body-secondary nav-link leading-6 text-sm">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/services.html" class="p-0 text-body-secondary nav-link leading-6 text-sm">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/blog.html" class="p-0 text-body-secondary nav-link leading-6 text-sm">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/contact.html" class="p-0 text-body-secondary nav-link leading-6 text-sm">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="/index.html" class="link-body-emphasis d-flex align-items-center text-decoration-none">
+                            <img src="/assets/logo/logo.png" height="24" alt="Soul Singers Logo" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="order-last order-xl-first">
+                        <p class="mb-0 text-body-secondary leading-6 text-sm">
+                            © 2025 Soul Singers, Inc. Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn btn-primary btn-back-to-top rounded-circle justify-content-center align-items-center p-2 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/assets/libraries/glide/glide.min.js"></script>
+    <script src="/assets/libraries/aos/aos.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
